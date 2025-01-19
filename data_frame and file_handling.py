@@ -3,10 +3,10 @@ import numpy as np
 import pandas as pd
 import os
 from statistics import median
-os.chdir("C:\\Users\\dasta\\OneDrive\\Documents\\Data Science Tabular sheets")
+# os.chdir("C:\\Users\\dasta\\OneDrive\\Documents\\Data Science Tabular sheets")
 
 
-df1 = pd.read_csv("tips.csv")
+df1 = pd.read_csv("C:\\Users\\dasta\\Documents\\Data Science Tabular sheets\\tips.csv")
 print('\n', df1)  # displays the file
 
 print('\n', df1.head())  # displays first 5 rows excluding index
